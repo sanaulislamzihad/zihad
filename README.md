@@ -1,6 +1,8 @@
 # Zihad's Professional Portfolio
 
 Welcome to my portfolio! This site showcases my journey as a Computer Science and Engineering student and a budding front-end developer. Built with React and styled using DaisyUI, it highlights my skills and projects.
+## Screenshot
+![Portfolio Website](/public/react.png)
 
 ## Overview
 This portfolio is designed to present my technical skills, projects, and interests. It reflects my dedication to creating user-friendly and interactive web applications, leveraging my background in computer science.
