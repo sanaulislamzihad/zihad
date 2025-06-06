@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+    cursor: none;
+}
+
+button, a, .hover-target, input[type="checkbox"], label, input, textarea {
+    cursor: none !important;
+}
+
+@keyframes flicker {
+    0% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
