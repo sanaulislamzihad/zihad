@@ -21,7 +21,7 @@ This portfolio is designed to present my technical skills, projects, and interes
 To set up this project locally:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sanaulislamzihad/zihad-portfolio.git
+   git clone https://github.com/sanaulislamzihad/zihad.git
    ```
 2. Navigate to the project directory:
    ```bash
