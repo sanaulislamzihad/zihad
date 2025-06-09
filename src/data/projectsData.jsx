@@ -1,12 +1,10 @@
-import project1 from '../assets/hotel-management.png';
-import project2 from '../assets/food-sharing.png';
-import project3 from '../assets/movie-portal.png';
+
 
 const projects = [
   {
     id: 1,
     name: 'Java Adventure Game',
-    image: project1,
+    image:'/Java game.jpg',
     description: 'An immersive adventure game developed in Java, featuring rich graphics, interactive gameplay, and a compelling storyline.',
     technologies: ['Java', 'LibGDX', 'OpenGL'],
     liveLink: '#',
@@ -17,7 +15,7 @@ const projects = [
   {
     id: 2,
     name: 'C++ Financial Software',
-    image: project2,
+    image: '/c++.JPG',
     description: 'A robust financial software application built with C++, offering real-time data processing, analytics, and secure transactions.',
     technologies: ['C++', 'Qt', 'SQLite'],
     liveLink: '#',
@@ -28,7 +26,7 @@ const projects = [
   {
     id: 3,
     name: 'React Portfolio Website',
-    image: project3,
+    image: '/React portfolio.png',
     description: 'A personal portfolio website created with React.js, showcasing projects, skills, and a blog with a modern, responsive design.',
     technologies: ['React', 'Gatsby', 'GraphQL'],
     liveLink: '#',

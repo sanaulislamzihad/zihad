@@ -41,5 +41,8 @@ To set up this project locally:
 ## Live Preview
 - **Visit the live site:** [https://zihad-portfolio.web.app/](https://zihad-portfolio.web.app/)
 
+## GitHub Repository
+- **View the code on GitHub:** [GitHub Repository](https://github.com/sanaulislamzihad/zihad.git)
+
 ---
 Feel free to explore and reach out for collaborations or inquiries! 🚀

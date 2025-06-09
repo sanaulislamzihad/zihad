@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body, html {
-    cursor: none;
+    cursor: default;
 }
 
 button, a, .hover-target, input[type="checkbox"], label, input, textarea {
