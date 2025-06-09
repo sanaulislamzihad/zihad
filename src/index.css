@@ -7,10 +7,11 @@ body, html {
 }
 
 button, a, .hover-target, input[type="checkbox"], label, input, textarea {
-    cursor: none !important;
+    cursor:pointer;
 }
 
 @keyframes flicker {
     0% { opacity: 0.8; }
     100% { opacity: 1; }
 }
+
