@@ -34,7 +34,7 @@ const Education = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     {[  
                         { school: "Noth South University", degree: "BSc in Computer Science and Engineering", year: "2022-2026" },
-                        { school: "Rajshahi Govt City COllege, Rajshahi", degree: "HSC", year: "2020" },
+                        { school: "Rajshahi Govt City College, Rajshahi", degree: "HSC", year: "2020" },
                         { school: "RB Govt High School,Joypurhat", degree: "SSC", year: "2018" }
                     ].map((edu, index) => (
                         <motion.div

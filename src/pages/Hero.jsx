@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { SiCodeforces } from "react-icons/si";
 import "../index.css";
 
 const Hero = () => {
@@ -39,6 +39,15 @@ const Hero = () => {
           <FaGithub className="text-xl" />
         </a>
         <a
+          href="https://codeforces.com/profile/sanaul_islam_zihad"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white text-purple-900 dark:text-white dark:bg-purple-900 dark:hover:bg-purple-700 p-3 rounded-full shadow-lg transition-colors"
+          aria-label="Codeforces"
+        >
+          <SiCodeforces className="text-xl" />
+        </a>
+        <a
           href="https://linkedin.com/in/#"
           target="_blank"
           rel="noopener noreferrer"
@@ -46,15 +55,6 @@ const Hero = () => {
           aria-label="LinkedIn"
         >
           <FaLinkedin className="text-xl" />
-        </a>
-        <a
-          href="https://x.com/#"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-white text-purple-900 dark:text-white dark:bg-purple-900 dark:hover:bg-purple-700 p-3 rounded-full shadow-lg transition-colors"
-          aria-label="Twitter"
-        >
-          <FaSquareXTwitter className="text-xl" />
         </a>
         <a
           href="https://www.facebook.com/sanaulbhai.gmail/"
@@ -65,6 +65,7 @@ const Hero = () => {
         >
           <FaFacebook className="text-xl" />
         </a>
+        
       </motion.div>
 
       {/* Text Section */}
