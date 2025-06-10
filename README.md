@@ -19,27 +19,8 @@ This portfolio is designed to present my technical skills, projects, and interes
 - Detailed project showcases with descriptions
 - Smooth navigation and transitions
 
-## Installation Instructions
-To set up this project locally:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sanaulislamzihad/zihad.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd zihad-portfolio
-   ```
-3. Install the necessary dependencies:
-   ```bash
-   npm install
-   ```
-4. Launch the development server:
-   ```bash
-   npm run dev
-   ```
-
 ## Live Preview
-- **Visit the live site:** [https://zihad-portfolio.web.app/](https://zihad-portfolio.web.app/)
+- **Visit the live site:** [https://zihadwesbite.web.app/](https://zihadwesbite.web.app/)
 
 ## GitHub Repository
 - **View the code on GitHub:** [GitHub Repository](https://github.com/sanaulislamzihad/zihad.git)
