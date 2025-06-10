@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { FaMoon, FaSun, FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState("");
@@ -25,22 +25,41 @@ const Navbar = () => {
     "education",
     "projects",
     "contact",
+    "academic-project"
   ].map((link) => (
     <li key={link} className="text-lg capitalize">
-      <HashLink
-        to={`/#${link}`}
-        onClick={() => {
-          setActiveLink(link);
-          setIsMenuOpen(false);
-        }}
-        className={`${
-          activeLink === link
-            ? "text-purple-500"
-            : "text-gray-700 dark:text-gray-300"
-        } hover:text-purple-400 dark:hover:text-purple-300 transition-transform duration-200 ease-in-out transform hover:scale-105`}
-      >
-        {link}
-      </HashLink>
+      {link === 'academic-project' ? (
+        <NavLink
+          to={`/${link}`}
+          onClick={() => {
+            setActiveLink(link);
+            setIsMenuOpen(false);
+          }}
+          className={`${
+            activeLink === link
+              ? "text-purple-500"
+              : "text-gray-700 dark:text-gray-300"
+          } hover:text-purple-400 dark:hover:text-purple-300 transition-transform duration-200 ease-in-out transform hover:scale-105`}
+        >
+          {link.replace('-', ' ')}
+        </NavLink>
+      ) : (
+        <HashLink
+          to={`/#${link}`}
+          scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+          onClick={() => {
+            setActiveLink(link);
+            setIsMenuOpen(false);
+          }}
+          className={`${
+            activeLink === link
+              ? "text-purple-500"
+              : "text-gray-700 dark:text-gray-300"
+          } hover:text-purple-400 dark:hover:text-purple-300 transition-transform duration-200 ease-in-out transform hover:scale-105`}
+        >
+          {link.replace('-', ' ')}
+        </HashLink>
+      )}
     </li>
   ));
 
@@ -50,7 +69,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center px-4">
         {/* Logo */}
-        <NavLink className="text-2xl font-bold text-purple-500">
+        <NavLink to="/" className="text-2xl font-bold text-purple-500">
           <span className="text-purple-700">&lt;Z</span>ihad
           <span className="text-purple-700">/&gt;</span>
         </NavLink>
